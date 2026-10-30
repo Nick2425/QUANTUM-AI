@@ -1,0 +1,143 @@
+{
+  "system": "FeMoCo76o113e",
+  "factorization": "C:\\Users\\kuijp\\Documents\\Personal Projects\\Github\\Google Quantum AI\\QUANTUM-AI\\kaggle\\input\\verifiable-circuit-compilation-starter-kit\\starter_kit\\baselines\\FeMoCo76o113e_65_60_60_ep50000_seed0.npz",
+  "tree": "log_depth",
+  "brot": 12,
+  "batch_size": 7,
+  "rounding": "nearest",
+  "num_vectors": 3976,
+  "num_angles": 75,
+  "circuits": [
+    "angle_k_0.kmx",
+    "angle_k_1.kmx",
+    "angle_k_2.kmx",
+    "angle_k_3.kmx",
+    "angle_k_4.kmx",
+    "angle_k_5.kmx",
+    "angle_k_6.kmx",
+    "angle_k_7.kmx",
+    "angle_k_8.kmx",
+    "angle_k_9.kmx",
+    "angle_k_10.kmx"
+  ],
+  "costs": [
+    {
+      "k": 0,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 167156
+    },
+    {
+      "k": 1,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 166677
+    },
+    {
+      "k": 2,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 166746
+    },
+    {
+      "k": 3,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 167222
+    },
+    {
+      "k": 4,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 182692
+    },
+    {
+      "k": 5,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 194777
+    },
+    {
+      "k": 6,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 194042
+    },
+    {
+      "k": 7,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 195161
+    },
+    {
+      "k": 8,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 195186
+    },
+    {
+      "k": 9,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 195064
+    },
+    {
+      "k": 10,
+      "num_qubits": 107,
+      "max_magic": 3974,
+      "reaction_depth": 11,
+      "num_instructions": 194113
+    }
+  ],
+  "resources": {
+    "brot": 12,
+    "keep_bits": 10,
+    "angles_toffoli_per_pass": 43714.0,
+    "angles_toffoli": 87428.0,
+    "angles_qubits": 107,
+    "angles_selection_qubits": 12,
+    "angles_persistent_qubits": 84,
+    "angles_temporary_qubits": 11,
+    "outer_state_prep_toffoli": 846,
+    "inner_state_prep_toffoli": 9461,
+    "givens_rotations_toffoli": 3450,
+    "outer_state_prep_persistent_qubits": 46,
+    "outer_state_prep_temporary_qubits": 370,
+    "outer_state_prep_qubits": 416,
+    "inner_state_prep_persistent_qubits": 44,
+    "inner_state_prep_temporary_qubits": 544,
+    "inner_state_prep_qubits": 588,
+    "heuristic_persistent_qubits": 90,
+    "heuristic_temporary_qubits": 544,
+    "heuristic_toffoli": 13757,
+    "heuristic_qubits": 634,
+    "persistent_qubits": 174,
+    "temporary_qubits": 544,
+    "toffoli": 101185.0,
+    "qubits": 718,
+    "angles_within_cap": true
+  },
+  "metrics": {
+    "error_1": 0.0031851950317980954,
+    "error_2": 0.01863957063097417,
+    "Lambda": 308.4559397330944,
+    "E_SOS": -22144.23882724429,
+    "E_gap": 3.965477244291833,
+    "lambda_eff": 49.30136925057438,
+    "gap_in_domain": true,
+    "Lambda_floor": 49.0,
+    "E_gap_floor": 3.914898
+  },
+  "score": 3581785396.1907067,
+  "directory": "tmp_dfthcsos_build"
+}
