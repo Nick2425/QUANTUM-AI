@@ -2,5 +2,19 @@
     "files.exclude": {
         "**/*.ico": true,
         "**/*.ini": true
-    }
+    },
+    "favorites.resources": [
+        {
+            "filePath": "kaggle\\input\\verifiable-circuit-compilation-starter-kit\\starter_kit\\starter\\task1_factorization",
+            "group": "Default"
+        },
+        {
+            "filePath": "kaggle\\input\\verifiable-circuit-compilation-starter-kit\\starter_kit\\starter\\task2_angles",
+            "group": "Default"
+        },
+        {
+            "filePath": "kaggle\\input\\verifiable-circuit-compilation-starter-kit\\starter_kit\\starter\\task3_circuits",
+            "group": "Default"
+        }
+    ]
 }
